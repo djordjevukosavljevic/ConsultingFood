@@ -61,7 +61,6 @@ C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\s
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ConsultingFood.props
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ConsultingFood.props
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\ConsultingFood.dll
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\refint\ConsultingFood.dll
 C:\Users\djord\Documents\Dev\ConsultingFoodDev\ConsultingFood\obj\Debug\net8.0\ConsultingFood.pdb
