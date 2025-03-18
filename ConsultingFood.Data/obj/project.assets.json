@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Data\\ConsultingFood.Data.csproj",
+      "projectUniqueName": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood.Data\\ConsultingFood.Data.csproj",
       "projectName": "ConsultingFood.Data",
-      "projectPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Data\\ConsultingFood.Data.csproj",
+      "projectPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood.Data\\ConsultingFood.Data.csproj",
       "packagesPath": "C:\\Users\\djord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Data\\obj\\",
+      "outputPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
