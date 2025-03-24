@@ -28,6 +28,15 @@ namespace ConsultingFood.Controllers
             return View();
         }
 
+        public IActionResult Meat()
+        {
+            return View();
+        }
+
+        public IActionResult Fruit()
+        {
+            return View();
+        }
         public IActionResult Appointments()
         {
             return View();

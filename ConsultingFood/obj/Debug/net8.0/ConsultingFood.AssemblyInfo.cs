@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsultingFood")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e935865376860fad7113d7a458be4c80523575d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bca0329693c532a2742734756d071aaab576e27")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsultingFood")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsultingFood")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
