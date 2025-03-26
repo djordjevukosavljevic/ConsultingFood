@@ -38,6 +38,12 @@ namespace ConsultingFood.Controllers
             return View();
         }
 
+        public IActionResult Milk()
+        {
+            return View();
+        }
+
+
         public IActionResult Gallery()
         {
             return View();
