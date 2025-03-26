@@ -1,4 +1,4 @@
-﻿namespacse ConsultingFood.Data
+﻿namespace ConsultingFood.Data
 {
     public class Standard
     {

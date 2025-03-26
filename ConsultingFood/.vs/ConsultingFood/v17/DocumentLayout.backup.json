@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DF2399F4-EF0F-424F-8BF1-4DF65D09A200}|..\\ConsultingFood.Data\\ConsultingFood.Data.csproj|c:\\users\\djord\\documents\\dev\\consultingfooddev\\consultingfood.data\\standard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EB389F6-B2EF-4AAD-BCEA-C1DC6E8CF94C}|ConsultingFood.csproj|c:\\users\\djord\\documents\\dev\\consultingfooddev\\consultingfood\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7EB389F6-B2EF-4AAD-BCEA-C1DC6E8CF94C}|ConsultingFood.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -50,19 +53,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Standard.cs",
+              "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood.Data\\Standard.cs",
+              "RelativeDocumentMoniker": "..\\ConsultingFood.Data\\Standard.cs",
+              "ToolTip": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood.Data\\Standard.cs",
+              "RelativeToolTip": "..\\ConsultingFood.Data\\Standard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:43:48.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
               "ToolTip": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-03-18T18:09:52.507Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -88,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -101,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Base.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Data\\Base.cs",
               "RelativeDocumentMoniker": "..\\..\\ConsultingFood.Data\\Base.cs",
@@ -113,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "StandardService.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Services\\StandardService.cs",
               "RelativeDocumentMoniker": "..\\..\\ConsultingFood.Services\\StandardService.cs",
@@ -125,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StandardRepository.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Repositories\\StandardRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\ConsultingFood.Repositories\\StandardRepository.cs",
@@ -137,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "StandardModel.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Models\\StandardModel.cs",
               "RelativeDocumentMoniker": "..\\..\\ConsultingFood.Models\\StandardModel.cs",
@@ -149,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Standard.cs",
               "DocumentMoniker": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood.Data\\Standard.cs",
               "RelativeDocumentMoniker": "..\\..\\ConsultingFood.Data\\Standard.cs",
