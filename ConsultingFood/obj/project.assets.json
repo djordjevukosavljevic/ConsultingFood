@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\ConsultingFood.csproj",
+      "projectUniqueName": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood\\ConsultingFood\\ConsultingFood.csproj",
       "projectName": "ConsultingFood",
-      "projectPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\ConsultingFood.csproj",
+      "projectPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood\\ConsultingFood\\ConsultingFood.csproj",
       "packagesPath": "C:\\Users\\djord\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFoodDev\\ConsultingFood\\obj\\",
+      "outputPath": "C:\\Users\\djord\\Documents\\Dev\\ConsultingFood\\ConsultingFood\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,7 +49,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -75,7 +75,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
