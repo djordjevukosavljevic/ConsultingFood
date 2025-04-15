@@ -9,5 +9,6 @@ namespace ConsultingFood.Data
         public required double Grade {get; set;}
 
         public DateTime CreatedAt {get; set;}
+        
     }
 }
