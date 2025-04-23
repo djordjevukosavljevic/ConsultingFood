@@ -1,10 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
+
 <body>
+    <div>
+        <thead>
+            <label class="h1">When can we arrange a meeting?</label>
+        </thead>
+        <tbody>
+            <!-- #Calendar bootstrap implementation-->
+
+            <div class="calendar" data-coreui-calendar-index="0">
+                <div class="calendar-nav"></div>
+                <div class="calendar-nav-prev">
+                    <button class="btn btn-transparent btn-sm btn-double-prev" aria-label="Previous year">
+                        <span class="calendar-nav-icon calendar-nav-icon-double-prev"></span>
+                    </button>
+                    <button class="btn btn-transparent btn-sm btn-prev" aria-label="Previous month">
+                        <span class="calendar-nav-icon calendar-nav-icon-prev"></span>
+                    </button>
+                </div>
+                <div class="calendar-nav-date" aria-live="polite">
+                    <button class="btn btn-transparent btn-sm btn-month">
+                        February
+                    </button>
+                    <button class="btn btn-transparent btn-sm btn-year">
+                        2024
+                    </button>
+                </div>
+                <div class="calendar-nav-next">
+                    <button class="btn btn-transparent btn-sm btn-next" aria-label="Next month">
+                        <span class="calendar-nav-icon calendar-nav-icon-next"></span>
+                    </button>
+                    <button class="btn btn-transparent btn-sm btn-double-next" aria-label="Next year">
+                        <span class="calendar-nav-icon calendar-nav-icon-double-next"></span>
+                    </button>
+                </div>
+            </div>
+            <table>
+
+                <thead>
+                    <tr>
+
+                        <th class="calendar-cell" abbr="Monday">
+                            <div class="calendar-header-cell-inner">
+                                Mo
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Tuesday">
+                            <div class="calendar-header-cell-inner">
+                                Tu
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Wednesday">
+                            <div class="calendar-header-cell-inner">
+                                We
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Thursday">
+                            <div class="calendar-header-cell-inner">
+                                Th
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Friday">
+                            <div class="calendar-header-cell-inner">
+                                Fr
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Saturday">
+                            <div class="calendar-header-cell-inner">
+                                Sa
+                            </div>
+                        </th>
+                        <th class="calendar-cell" abbr="Sunday">
+                            <div class="calendar-header-cell-inner">
+                                Su
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell previous" tabindex="-1"
+                            data-coreui-date="Mon Jan 29 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                29
+                            </div>
+                        </td>
+                        <td class="calendar-cell previous" tabindex="-1"
+                            data-coreui-date="Tue Jan 30 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                30
+                            </div>
+                        </td>
+                        <td class="calendar-cell previous" tabindex="-1"
+                            data-coreui-date="Wed Jan 31 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                31
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Thu Feb 01 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                1
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Fri Feb 02 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                2
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sat Feb 03 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                3
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sun Feb 04 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                4
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Mon Feb 05 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                5
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Tue Feb 06 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                6
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Wed Feb 07 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                7
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Thu Feb 08 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                8
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Fri Feb 09 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                9
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sat Feb 10 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                10
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sun Feb 11 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                11
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Mon Feb 12 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                12
+                            </div>
+                        </td>
+                        <td class="calendar-cell selected current" tabindex="0" aria-selected="true"
+                            data-coreui-date="Tue Feb 13 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                13
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Wed Feb 14 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                14
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Thu Feb 15 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                15
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Fri Feb 16 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                16
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sat Feb 17 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                17
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sun Feb 18 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                18
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Mon Feb 19 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                19
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Tue Feb 20 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                20
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Wed Feb 21 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                21
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Thu Feb 22 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                22
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Fri Feb 23 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                23
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sat Feb 24 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                24
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Sun Feb 25 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                25
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Mon Feb 26 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                26
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Tue Feb 27 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                27
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Wed Feb 28 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                28
+                            </div>
+                        </td>
+                        <td class="calendar-cell current" tabindex="0"
+                            data-coreui-date="Thu Feb 29 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                29
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Fri Mar 01 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                1
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Sat Mar 02 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                2
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Sun Mar 03 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                3
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="calendar-row" tabindex="-1">
+
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Mon Mar 04 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                4
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Tue Mar 05 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                5
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Wed Mar 06 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                6
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Thu Mar 07 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                7
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Fri Mar 08 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                8
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Sat Mar 09 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                9
+                            </div>
+                        </td>
+                        <td class="calendar-cell next" tabindex="-1"
+                            data-coreui-date="Sun Mar 10 2024 00:00:00 GMT+0100 (Central European Standard Time)">
+                            <div class="calendar-cell-inner day">
+                                10
+                            </div>
+                        </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+    </div>
+    <!-- #End -->
+    </tbody>
+    </div>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
 </html>
